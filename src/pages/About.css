@@ -1,0 +1,101 @@
+
+.sec{
+    background: rgb(0,0,0);
+    background: linear-gradient(333deg, rgba(0,0,0,0.7301514355742297) 10%, rgba(0,0,0,0.7301514355742297) 100%);
+    width: 88%;
+    margin: auto;
+    margin-bottom: 7px;
+    margin-top: 7%;
+    padding: 10px;
+    z-index: -1;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: var( --text-white);
+  
+}
+.sec-title{
+    z-index: 1;
+    font-size: 22px;
+    color: var(--text-dark-grey);
+    position: relative;
+}
+.sec-title::before{
+    content: '';
+    width: 200px;
+    height: 2px;
+    background-color:#18D26E ;
+    border-radius: 40px;
+    top: 18px;
+    left: 120px;
+    z-index: -2;
+    position: absolute;
+}
+.learnMore{
+    display: flex;
+    justify-content: space-between;
+}
+.me{
+    margin-right: 25px;
+    width: 367px;
+    height: 492Px;
+}
+.abouMe{
+    width: 45%;
+    padding-left:  15%; ; 
+}
+.aboutMe h2{
+    color:  var(--secondcolor);
+}
+.aboutMe p{
+    color: var(--text-white);
+}
+.about-sec{
+    display: flex;
+    justify-content: space space-between;
+}
+.about-list-2{
+    width: 30%;
+}
+.info{
+    color: var(--text-white);
+}
+.info ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.fleche{
+    color: var(--secondcolor);
+}
+.description {
+    padding-top: 25px; 
+}
+.level-skill{
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-white);
+}
+  .progress-bar {
+    background-color:var(--secondcolor) ;
+    width: 1px;
+    height: 17px;
+    transition: 0.9s;
+  }
+  .skillsBar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .skillBar{
+    margin-bottom: 15px;
+    width: 45%;
+    height: auto;
+  
+  }
+  .skillBar[aria-valuenow="0"] {
+    transition: none;
+}
+

@@ -1,0 +1,17 @@
+.contenaire-projet{
+    display: flex;
+    justify-content: safe;
+    flex-wrap: wrap ;
+    padding: 15px;
+
+
+}
+.img-projet{
+    width: 320px;
+    height: 225px;
+    margin: 15px;
+}
+.projet{
+    width: 500px;
+    height: 425PX;
+}

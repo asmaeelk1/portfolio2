@@ -10,8 +10,40 @@
     width: 320px;
     height: 225px;
     margin: 15px;
+    position: relative;
+    
 }
+/* .sec-projet::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-image: url(link-45deg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 15px; 
+    color: var(--text-white);
+     background-color: rgba(255, 255, 255, 0.1); 
+    background-color: red;
+      display: none;  
+     width: 300px;
+     height: 250px;
+} */
+
 .projet{
     width: 500px;
     height: 425PX;
+}
+.title-projet{
+    margin: auto;
+    color: var(--secondcolor);
+}
+.sec-projet{
+    display: flex;
+    flex-direction: column;
+}
+.liens{
+    fill: var(--texte-white);
 }

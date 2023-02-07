@@ -54,7 +54,7 @@ export default function Resume() {
             <div className='date-res'>2019-2020</div>
             <em><img  src={ZYNE} alt='img'/> ZYNE</em>
           <p className='text-res'>My internship as a sales representative and stock manager was a unique opportunity to demonstrate my team spirit.
-           Furthermore, I had the flexibility to adapt to unexpected situations and work proactively to solve problems while enhancing my ability to work in a team.</p>
+           Moreover, I had the flexibility to adapt to unexpected situations and work proactively to solve problems while enhancing my ability to work in a team.</p>
           </div>
           </div>  
         {/*  */}
